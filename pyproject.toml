@@ -21,7 +21,7 @@ dependencies = [
 include-package-data = true
 
 [tool.setuptools.package-data]
-"lcb_runner" = ["*.json"]
+"lcb_runner.prompts.few_shot_examples.generation" = ["*.json"]
 
 [tool.setuptools.packages.find]
 exclude = ["assets"]
