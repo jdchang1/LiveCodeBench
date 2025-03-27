@@ -17,5 +17,5 @@ dependencies = [
     "vllm>=0.5.0.post1",
 ]
 
-[tool.setuptools]
-packages = ["lcb_runner"]
+#[tool.setuptools]
+#packages = ["lcb_runner"]
