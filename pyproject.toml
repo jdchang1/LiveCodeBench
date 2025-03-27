@@ -18,5 +18,5 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["lcb_runner"]
+#packages = ["lcb_runner"]
 packages = find_packages(include=['lcb_runner', 'lcb_runner.*'])
