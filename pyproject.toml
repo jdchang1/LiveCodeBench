@@ -17,6 +17,8 @@ dependencies = [
     "vllm>=0.5.0.post1",
 ]
 
-[tool.setuptools]
+[tool.setuptools.packages.find]
+where = ["lcb_runner"]
+#[tool.setuptools]
 #packages = ["lcb_runner"]
-packages = find_packages(include=['lcb_runner', 'lcb_runner.*'])
+#packages = find_packages(include=['lcb_runner', 'lcb_runner.*'])
